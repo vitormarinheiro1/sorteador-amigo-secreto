@@ -8,9 +8,10 @@ import { RecoilRoot } from "recoil";
 // 1º descrição do teste
 // 2º implementação do teste 
 test("quando o input está vazio, novos participantes não podem ser adicionados", () => {
-    <RecoilRoot>
-        <Formulario />
-    </RecoilRoot>;
+    render(
+        <RecoilRoot>
+            <Formulario />
+        </RecoilRoot>);
     // encontrar no DOM o input
     const input = screen.getByPlaceholderText("Insira os nomes dos participantes")
     // encontrar o botão
@@ -58,6 +59,7 @@ test("nomes duplicados não podem ser adicionados na lista", () => {
             value: 'Ana Luisa'
         }
     })
+    fireEvent.click(botao)
     fireEvent.change(input, {
         target: {
             value: 'Ana Luisa'
