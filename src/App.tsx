@@ -2,7 +2,7 @@ import React from 'react';
 import './App.module.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { RecoilRoot } from 'recoil';
-import { Configuracao } from './paginas/Configuracao';
+import { Configuracao } from './paginas/Configuracao/Configuracao';
 
 
 function App() {
