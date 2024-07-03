@@ -3,6 +3,7 @@ import './App.module.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { RecoilRoot } from 'recoil';
 import { Configuracao } from './paginas/Configuracao/Configuracao';
+import { Sorteio } from './paginas/sorteio/Sorteio';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <RecoilRoot>
         <Routes>
           <Route path='/' element={<Configuracao />} />
+          <Route path='/sorteio' element={<Sorteio />} />
         </Routes>
       </RecoilRoot>
     </BrowserRouter>
