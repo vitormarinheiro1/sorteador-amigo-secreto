@@ -1,46 +1,55 @@
-# Getting Started with Create React App
+<h1 align="center" style="font-weight: bold;">Sorteador de amigo secreto</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+</p>
 
-## Available Scripts
+<p align="center">
+     <a href="https://sorteador-amigo-secreto-project.vercel.app/">📱 Visit this Project</a>
+</p>
 
-In the project directory, you can run:
+<h2 id="layout">🎨 Layout</h2>
 
-### `npm start`
+<p align="center">
+    <img src="./public/imagens/sorteador.png" alt="Image 1" width="400px">
+    <img src="./public/imagens/sorteador1.png" alt="Image 2" width="400px">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<h2 id="tech">💻 Technologies</h2>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Reactjs
+- React Hooks
+- Recoil
+- Sass
 
-### `npm test`
+<h2 id="started">🚀 Getting started</h2>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h3>Prerequisites</h3>
 
-### `npm run build`
+- [NodeJS](https://nodejs.org/en)
+- [Git](https://git-scm.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>Cloning</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+How to clone your project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/vitormarinheiro1/sorteador-amigo-secreto.git
+```
 
-### `npm run eject`
+<h3>Starting</h3>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+How to start your project
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+cd sorteador-amigo-secreto
+npm install
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<h3>Documentations that might help</h3>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[📝 How to create a Pull Request](https://www.atlassian.com/br/git/tutorials/making-a-pull-request)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[💾 Commit pattern](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716)
